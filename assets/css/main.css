@@ -2628,6 +2628,12 @@ body>article {
 		letter-spacing: 0;
 	}
 
+	.work-boxes {
+		border: 1px solid #f1f1f3;
+		padding: 2em;
+		width: 100%;
+	  }
+
 	}
 
 }
