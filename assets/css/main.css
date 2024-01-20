@@ -333,12 +333,32 @@ footer>p {
 	font-size: 1.25em;
 }
 
+.tech-stack-list li {
+	color: #f1f1f3;
+	margin: 5px;
+	list-style-type:square;
+  }
+
+  .work-boxes {
+	border: 1px solid #f1f1f3;
+	padding: 2em;
+	width: 300%;
+  }
+
 /* Container */
 
 .container {
 	margin: 0 auto;
 	max-width: calc(100% - 50px);
 	width: 1200px;
+}
+
+.container-2 {
+	margin: 0 auto;
+	max-width: calc(70%);
+	width: 1200px;
+	text-align: left;
+	line-height: 2.5em;
 }
 
 .container.medium {
@@ -367,6 +387,8 @@ footer>p {
 		width: 720px;
 	}
 
+
+
 }
 
 @media screen and (max-width: 980px) {
@@ -378,6 +400,13 @@ footer>p {
 	.container.medium {
 		width: 75%;
 	}
+	
+	  .work-boxes {
+		border: 1px solid #f1f1f3;
+		padding: 2em;
+		width: 200%;
+	  }
+	
 
 }
 
@@ -391,6 +420,13 @@ footer>p {
 	.container.medium {
 		width: 100%;
 	}
+	
+	  .work-boxes {
+		border: 1px solid #f1f1f3;
+		padding: 2em;
+		width: 100%;
+	  }
+	
 
 }
 
@@ -1642,7 +1678,7 @@ form textarea {
 	font-size: 1em;
 	border-radius: 8px;
 	border: solid 1px #ddd;
-	background: #fff;
+	background: #f1f1f3;
 	color: #bbb;
 	box-shadow: inset 0px 2px 3px 1px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025);
 	width: 100%;
@@ -1716,7 +1752,7 @@ table.default th {
 
 table.default thead {
 	background: #4f4f4f;
-	color: #fff;
+	color: #f1f1f3;
 }
 
 /* Section/Article */
@@ -1789,6 +1825,7 @@ button,
 	color: #f1f1f3;
 	text-align: center;
 	transition: all 0.15s;
+	margin-top: 1em;
 }
 
 input[type="button"]:hover,
@@ -1834,7 +1871,7 @@ input[type="reset"].alt:hover,
 button.alt:hover,
 .button.alt:hover {
 	background-color: #4f4f4f;
-	color: #fff !important;
+	color: #f1f1f3 !important;
 }
 
 input[type="button"].alt:active,
@@ -2011,7 +2048,7 @@ ul.actions li:first-child {
 /* Box */
 
 .box {
-	background: #fff;
+	background: #f1f1f3;
 	box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 	text-align: center;
 	padding: 2em;
@@ -2074,8 +2111,9 @@ ul.actions li:first-child {
 }
 
 .icon.featured {
-	color: #EA8A95;
-	display: block;
+	color: #8486de;
+	font-size: 0.4em;
+	padding: 2em;
 	margin: 0 0 1.5em 0;
 	cursor: default;
 }
@@ -2098,7 +2136,6 @@ ul.actions li:first-child {
 .wrapper.style2 {
 	background-color: #343432;
 	text-align: left;
-
 }
 
 .wrapper.style3 {
@@ -2117,7 +2154,7 @@ ul.actions li:first-child {
 .wrapper.style4 h4,
 .wrapper.style4 h5,
 .wrapper.style4 h6 {
-	color: #fff;
+	color: #f1f1f3;
 }
 
 .wrapper.style4 form input[type=text],
@@ -2168,7 +2205,7 @@ ul.actions li:first-child {
 	transition: background-color .2s ease-in-out;
 	position: relative;
 	display: block;
-	color: #fff;
+	color: #f1f1f3;
 	text-decoration: none;
 	outline: 0;
 	font-weight: 600;
@@ -2180,7 +2217,7 @@ ul.actions li:first-child {
 }
 
 #nav a:hover {
-	color: #fff !important;
+	color: #f1f1f3 !important;
 	background: #8486de;
 }
 
