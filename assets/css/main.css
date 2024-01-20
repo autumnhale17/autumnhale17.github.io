@@ -2514,7 +2514,7 @@ body>article {
 	}
 
 	#nav a {
-		padding: 0 0.75em;
+		padding: 0 0.50em;
 		height: inherit;
 		line-height: inherit;
 		border-radius: 0;
@@ -2561,6 +2561,39 @@ body>article {
 
 	#copyright li:first-child {
 		margin-top: 0;
+	}
+
+	@media screen and (max-width: 395px) {
+
+		#nav a {
+			padding: 0 0.10em;
+			height: inherit;
+			line-height: inherit;
+			border-radius: 0;
+		}
+
+		/* Button */
+
+	input[type="button"],
+	input[type="submit"],
+	input[type="reset"],
+	button,
+	.button {
+		text-align: center;
+		font-size: 1.2em;
+		width: 40%;
+		padding: 1em 0 1em 0;
+	}
+
+	input[type="button"].large,
+	input[type="submit"].large,
+	input[type="reset"].large,
+	button.large,
+	.button.large {
+		font-size: 1.2em;
+		letter-spacing: 0;
+	}
+
 	}
 
 }
