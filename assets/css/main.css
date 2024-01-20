@@ -2566,10 +2566,7 @@ body>article {
 	@media screen and (max-width: 395px) {
 
 		#nav a {
-			padding: 0 0.10em;
-			height: inherit;
-			line-height: inherit;
-			border-radius: 0;
+			visibility:hidden;
 		}
 
 		/* Button */
