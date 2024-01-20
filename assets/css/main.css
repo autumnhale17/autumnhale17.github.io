@@ -343,6 +343,7 @@ footer>p {
 	border: 1px solid #f1f1f3;
 	padding: 2em;
 	width: 300%;
+	line-height: 2em;
   }
 
 /* Container */
@@ -358,7 +359,7 @@ footer>p {
 	max-width: calc(70%);
 	width: 1200px;
 	text-align: left;
-	line-height: 2.5em;
+	line-height: 2em;
 }
 
 .container.medium {
@@ -1690,7 +1691,7 @@ form input[type=password]:focus,
 form select:focus,
 form textarea:focus {
 	background: #343432;
-	box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px #43bff0;
+	border: 1px solid #8486de;
 }
 
 form textarea {
@@ -1826,6 +1827,7 @@ button,
 	text-align: center;
 	transition: all 0.15s;
 	margin-top: 1em;
+	background-color: #343432;
 }
 
 input[type="button"]:hover,
@@ -1861,8 +1863,7 @@ input[type="submit"].alt,
 input[type="reset"].alt,
 button.alt,
 .button.alt {
-	background-color: #444;
-	box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
+	background-color: #343432;
 }
 
 input[type="button"].alt:hover,
@@ -1870,8 +1871,7 @@ input[type="submit"].alt:hover,
 input[type="reset"].alt:hover,
 button.alt:hover,
 .button.alt:hover {
-	background-color: #4f4f4f;
-	color: #f1f1f3 !important;
+	background-color: #343432;
 }
 
 input[type="button"].alt:active,
@@ -1879,7 +1879,7 @@ input[type="submit"].alt:active,
 input[type="reset"].alt:active,
 button.alt:active,
 .button.alt:active {
-	background-color: #3f3f3f;
+	background-color: #343432;
 }
 
 /* List */
@@ -2112,10 +2112,11 @@ ul.actions li:first-child {
 
 .icon.featured {
 	color: #8486de;
-	font-size: 0.4em;
-	padding: 2em;
-	margin: 0 0 1.5em 0;
+	font-size: 0.3em;
+	padding: 3em;
+	margin: 1em 0 1.5em 0;
 	cursor: default;
+	text-align: right;
 }
 
 .icon.featured:before {
@@ -2162,14 +2163,15 @@ ul.actions li:first-child {
 .wrapper.style4 form select,
 .wrapper.style4 form textarea {
 	border: none;
-	background: #282828;
+	background: #f1f1f3;
 }
 
 .wrapper.style4 form input[type=text]:focus,
 .wrapper.style4 form input[type=password]:focus,
 .wrapper.style4 form select:focus,
 .wrapper.style4 form textarea:focus {
-	background: #252525;
+	background: #f1f1f3;
+	border: 1px solid #8486de;
 }
 
 /* Nav */
@@ -2446,6 +2448,10 @@ body>article {
 		clear: both;
 	}
 
+	#nav a {
+		visibility:hidden;
+	}
+
 	/* Button */
 
 	input[type="button"],
@@ -2602,9 +2608,7 @@ body>article {
 
 	@media screen and (max-width: 395px) {
 
-		#nav a {
-			visibility:hidden;
-		}
+		
 
 		/* Button */
 
@@ -2631,7 +2635,7 @@ body>article {
 	.work-boxes {
 		border: 1px solid #f1f1f3;
 		padding: 2em;
-		width: 100%;
+		width: 80%;
 	  }
 
 	}
