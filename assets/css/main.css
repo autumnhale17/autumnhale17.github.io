@@ -209,10 +209,6 @@ a {
 	text-decoration: underline;
 }
 
-a:hover {
-	color: #43bff0 !important;
-}
-
 a img {
 	border: 0;
 }
@@ -2101,18 +2097,18 @@ ul.actions li:first-child {
 
 .wrapper.style2 {
 	background-color: #343432;
-	text-shadow: 1px 1px 0px #fff;
+	text-align: left;
+
 }
 
 .wrapper.style3 {
 	background-color: #343432;
-	text-shadow: 1px 1px 0px #fff;
+	text-align: left;
 }
 
 .wrapper.style4 {
 	background-color: #343432;
 	color: #999;
-	text-shadow: -1px -1px 0px #181818;
 }
 
 .wrapper.style4 h1,
@@ -2305,6 +2301,14 @@ body>article {
 
 	.wrapper {
 		padding: 5em 0 5em 0;
+		text-align: left;
+	}
+
+	.wrapper.style2 {
+		text-align: left;
+	}
+
+	.wrapper.style3 {
 		text-align: left;
 	}
 
