@@ -407,6 +407,7 @@ footer>p {
 		border: 1px solid #f1f1f3;
 		padding: 2em;
 		width: 200%;
+		margin-top: 3em;
 	  }
 	
 
@@ -2403,6 +2404,7 @@ body>article {
 		border: 1px solid #f1f1f3;
 		padding: 2em;
 		width: 200%;
+		margin-top: 3em;
 	  }
 
 	  .box.style2 {
@@ -2483,6 +2485,7 @@ body>article {
 		border: 1px solid #f1f1f3;
 		padding: 2em;
 		width: 100%;
+		margin-top: 3em;
 	  }
 
 	/* Button */
@@ -2668,6 +2671,7 @@ body>article {
 		padding: 2em;
 		width: 100%;
 		font-size: small;
+		margin-top: 3em;
 	  }
 
 	  .box.style2 {
